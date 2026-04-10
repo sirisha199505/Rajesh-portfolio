@@ -457,8 +457,22 @@ body {
 
 .exp-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 28px;
+}
+
+.exp-grid--4col {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.exp-phase {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+  display: block;
+  margin-bottom: 4px;
 }
 
 .exp-card {

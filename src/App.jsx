@@ -40,82 +40,97 @@ function App() {
     {
       icon: '⚡',
       title: 'Strategic Vision',
-      desc: 'Turning complex landscapes into clear, executable strategies that drive measurable growth.',
+      desc: 'Turning complex landscapes into clear, executable strategies — from IT infrastructure to land development and consumer brands.',
     },
     {
       icon: '🌐',
       title: 'Cross-Industry Mastery',
-      desc: 'Rare ability to operate with equal authority in IT boardrooms, real estate negotiations, and cosmic consultations.',
+      desc: 'Proven ability to build and lead ventures across technology, real estate, and premium lifestyle sectors with equal authority.',
     },
     {
       icon: '🤝',
       title: 'Leadership & Culture',
-      desc: 'Building high-performance teams and inspiring cultures where people and purpose align.',
+      desc: 'Building high-performance teams and inspiring cultures where people, purpose, and long-term value align.',
     },
     {
       icon: '✨',
-      title: 'Holistic Thinking',
-      desc: 'Bridging data-driven analytics with intuitive wisdom to make decisions that stand the test of time.',
+      title: 'Entrepreneurial Drive',
+      desc: 'From enterprise IT to real estate ventures to a handcrafted startup — a relentless builder with a track record across three industries.',
     },
   ]
 
   const experiences = [
     {
-      domain: 'Information Technology',
+      phase: 'Phase 1',
+      domain: 'IT Industry Experience',
       icon: '💻',
-      years: '15+',
+      years: '4+',
       highlights: [
-        'Led digital transformation projects for enterprise clients',
-        'Architected scalable IT solutions across multiple sectors',
-        'Built and managed cross-functional tech teams',
-        'Delivered end-to-end software and infrastructure projects',
+        'Spent 4+ years in enterprise IT operations and infrastructure management',
+        'Delivered client service solutions for organizations across sectors',
+        'Developed expertise in IT infrastructure deployment and end-to-end tech solutions',
+        'Built a foundation in customer service systems and enterprise operations',
       ],
     },
     {
-      domain: 'Real Estate',
-      icon: '🏢',
-      years: '10+',
+      phase: 'Phase 2',
+      domain: 'IT Services Business',
+      icon: '🖥️',
+      years: '',
       highlights: [
-        'Managed large-scale property portfolios and acquisitions',
-        'Navigated complex regulatory and financial landscapes',
-        'Developed strategic partnerships for real estate growth',
-        'Delivered residential and commercial project outcomes',
+        'Founded and led an IT Services Business delivering solutions to private and government clients',
+        'Served Hindustan Aeronautics Limited and Tata Teleservices among key accounts',
+        'Supported Jai Raj Steel and multiple government sector clients',
+        'Managed end-to-end IT infrastructure projects for enterprise and public organizations',
       ],
     },
     {
-      domain: 'Cosmic Industry',
-      icon: '🌌',
-      years: '8+',
+      phase: 'Phase 3',
+      domain: 'Real Estate — Abivya Group',
+      icon: '🏗️',
+      years: '',
       highlights: [
-        'Guided hundreds of individuals through transformative consultations',
-        'Integrated ancient cosmic wisdom with modern life strategies',
-        'Built a community around mindful, purpose-driven living',
-        'Authored frameworks blending spirituality and business excellence',
+        'Expanded into real estate in 2020, founding Abivya Group for venture development',
+        'Focused on strategic land acquisition and strategic property selection',
+        'Created customer-focused land investment opportunities in Sangareddy and Kandukur',
+        'Built around high-potential growth zones and transparent property development',
+      ],
+    },
+    {
+      phase: 'Phase 4',
+      domain: 'Startup Brand — Soapy Poetry',
+      icon: '🌿',
+      years: '',
+      highlights: [
+        'Launched Soapy Poetry, a premium handcrafted lifestyle and wellness brand',
+        'Built a creative consumer brand focused on artisanal products and purposeful living',
+        'Expanded entrepreneurial portfolio into the growing wellness and lifestyle market',
+        'Bringing the same vision-driven approach from IT and real estate to consumer brands',
       ],
     },
   ]
 
   const companies = [
     {
-      name: 'ECS Technology',
-      role: 'Managing Director',
+      name: 'IT Services Business',
+      role: 'Founder',
       icon: '🖥️',
       color: 'from-blue-600 to-cyan-500',
-      desc: 'A forward-thinking technology company delivering innovative IT solutions, digital infrastructure, and strategic tech consulting to businesses across sectors.',
+      desc: 'An IT services company delivering infrastructure and technical solutions to private and government organizations, including Hindustan Aeronautics Limited, Tata Teleservices, and Jai Raj Steel.',
     },
     {
       name: 'Abivya Group',
-      role: 'Managing Director',
+      role: 'Founder · Managing Director',
       icon: '🏗️',
       color: 'from-amber-500 to-orange-500',
-      desc: 'A diversified business group with strong presence in real estate, enterprise services, and strategic investments — driven by vision, integrity, and growth.',
+      desc: 'A real estate venture development company focused on strategic property selection, customer-focused land investment opportunities, and transparent development in Sangareddy and Kandukur.',
     },
     {
       name: 'Soapy Poetry',
-      role: 'Managing Director',
-      icon: '✍️',
+      role: 'Founder',
+      icon: '🌿',
       color: 'from-purple-600 to-pink-500',
-      desc: 'A unique creative and wellness brand that weaves the art of expression with purposeful living, offering products and experiences that nourish the soul.',
+      desc: 'A premium handcrafted lifestyle startup blending creative wellness with artisanal product design — Rajesh\'s newest venture at the intersection of creativity and consumer brands.',
     },
   ]
 
@@ -123,22 +138,22 @@ function App() {
     {
       category: 'Technology & IT',
       icon: '💻',
-      skills: ['Digital Transformation', 'IT Strategy', 'Software Architecture', 'Project Management', 'Enterprise Solutions', 'Cloud Infrastructure'],
+      skills: ['IT Infrastructure', 'Enterprise Solutions', 'IT Operations', 'Client Service Delivery', 'Project Management', 'Government IT Projects'],
     },
     {
       category: 'Business & Leadership',
       icon: '📊',
-      skills: ['Strategic Planning', 'Team Leadership', 'Business Development', 'Financial Oversight', 'Stakeholder Management', 'Organizational Design'],
+      skills: ['Strategic Planning', 'Team Leadership', 'Business Development', 'Venture Building', 'Stakeholder Management', 'Founder Mindset'],
     },
     {
       category: 'Real Estate',
       icon: '🏢',
-      skills: ['Portfolio Management', 'Property Acquisition', 'Market Analysis', 'Deal Structuring', 'Regulatory Navigation', 'Client Relations'],
+      skills: ['Land Acquisition', 'Venture Development', 'Property Selection', 'Market Analysis', 'Customer-Focused Development', 'Growth Zone Strategy'],
     },
     {
-      category: 'Cosmic & Wellness',
-      icon: '🌌',
-      skills: ['Cosmic Consultation', 'Vedic Astrology', 'Mindfulness Coaching', 'Energy Alignment', 'Life Strategy', 'Spiritual Guidance'],
+      category: 'Consumer Brands',
+      icon: '🌿',
+      skills: ['Brand Building', 'Startup Strategy', 'Product Development', 'Lifestyle Marketing', 'Handcrafted Products', 'Creative Entrepreneurship'],
     },
   ]
 
@@ -183,18 +198,18 @@ function App() {
           <div className="orbit orbit-2"></div>
         </div>
         <div className="hero-content">
-          <p className="hero-eyebrow">Managing Director · Visionary · Strategist</p>
+          <p className="hero-eyebrow">Founder · Managing Director · Entrepreneur</p>
           <h1 className="hero-name">
             <span className="hero-name-raj">Rajesh</span>
           </h1>
           <p className="hero-tagline">
-            Where Technology Meets Wisdom,<br />
-            <span className="tagline-gold">and Vision Becomes Reality.</span>
+            Building at the Intersection of Technology,<br />
+            <span className="tagline-gold">Real Estate &amp; Creative Brands.</span>
           </p>
           <p className="hero-mission">
-            Empowering businesses and individuals through 15+ years of cross-industry leadership —
-            blending cutting-edge technology, strategic business acumen, and cosmic wisdom
-            to create impact that endures.
+            Entrepreneur building companies across three industries — from enterprise IT solutions
+            and real estate venture development to premium handcrafted lifestyle brands.
+            Every venture driven by the same conviction: choose the right opportunity, create real value.
           </p>
           <div className="hero-cta">
             <button className="btn-primary" onClick={() => scrollTo('about')}>Discover My Story</button>
@@ -212,23 +227,23 @@ function App() {
         <div className="container">
           <div className="section-header">
             <span className="section-tag">About Me</span>
-            <h2 className="section-title">A Journey Beyond Boundaries</h2>
+            <h2 className="section-title">A Journey Built Venture by Venture</h2>
           </div>
           <div className="about-grid">
             <div className="about-story">
               <p>
-                My journey began with a single conviction — that <strong>great leaders don't just adapt to change, they drive it.</strong> Over the past 15+ years, I've built a career that refuses to be confined to one industry, one discipline, or one dimension of success.
+                I started in the IT sector, spending over four years gaining hands-on experience in <strong>enterprise IT operations, infrastructure management, and client service delivery.</strong> That foundation led me to launch my own IT Services Business — serving clients like Hindustan Aeronautics Limited, Tata Teleservices, and Jai Raj Steel.
               </p>
               <p>
-                From architecting enterprise-grade technology solutions to closing landmark real estate deals, and from boardroom strategy sessions to cosmic consultations that transform lives — I have learned that <strong>true mastery lies at the intersection of knowledge, intuition, and purpose.</strong>
+                In 2020, I expanded into real estate, founding <strong>Abivya Group</strong> to focus on strategic land acquisition and venture development. Our developments in Sangareddy and Kandukur are built on a simple philosophy: choose the right property, create real value, and ensure long-term customer satisfaction.
               </p>
               <p>
-                Today, as Managing Director of three distinct companies, I bring this multi-dimensional perspective to every decision — leading with clarity, acting with integrity, and always building with the long view in mind.
+                Most recently, I launched <strong>Soapy Poetry</strong> — a startup brand in the premium handcrafted lifestyle and wellness space. Three industries, three ventures, one consistent approach: build with purpose and execute with integrity.
               </p>
               <div className="mission-card">
-                <span className="mission-label">Mission Statement</span>
+                <span className="mission-label">Philosophy</span>
                 <p className="mission-text">
-                  "To lead with vision, serve with wisdom, and build legacies that bridge the worlds of technology, business, and human potential."
+                  "Choose the right property, create real value, and ensure long-term customer satisfaction."
                 </p>
               </div>
             </div>
@@ -250,17 +265,18 @@ function App() {
         <div className="container">
           <div className="section-header">
             <span className="section-tag">Experience</span>
-            <h2 className="section-title">15+ Years of Proven Impact</h2>
-            <p className="section-sub">Three industries. One unwavering standard of excellence.</p>
+            <h2 className="section-title">Four Phases. Three Industries.</h2>
+            <p className="section-sub">A career built step by step — from IT professional to multi-venture entrepreneur.</p>
           </div>
-          <div className="exp-grid">
-            {experiences.map(({ domain, icon, years, highlights }) => (
+          <div className="exp-grid exp-grid--4col">
+            {experiences.map(({ phase, domain, icon, years, highlights }) => (
               <div key={domain} className="exp-card">
                 <div className="exp-header">
                   <span className="exp-icon">{icon}</span>
                   <div>
+                    <span className="exp-phase">{phase}</span>
                     <h3 className="exp-domain">{domain}</h3>
-                    <span className="exp-years">{years} Years</span>
+                    {years && <span className="exp-years">{years} Years</span>}
                   </div>
                 </div>
                 <ul className="exp-highlights">
@@ -281,8 +297,8 @@ function App() {
         <div className="container">
           <div className="section-header">
             <span className="section-tag">Leadership</span>
-            <h2 className="section-title">Companies I Lead</h2>
-            <p className="section-sub">Three ventures. Three missions. One vision.</p>
+            <h2 className="section-title">Ventures I've Built</h2>
+            <p className="section-sub">Three companies. Three industries. One entrepreneurial mindset.</p>
           </div>
           <div className="companies-grid">
             {companies.map(({ name, role, icon, color, desc }) => (
@@ -307,7 +323,7 @@ function App() {
           <div className="section-header">
             <span className="section-tag">Skills</span>
             <h2 className="section-title">Core Competencies</h2>
-            <p className="section-sub">A toolkit built across decades and disciplines.</p>
+            <p className="section-sub">Skills built across IT, real estate, and creative entrepreneurship.</p>
           </div>
           <div className="skills-grid">
             {skillCategories.map(({ category, icon, skills }) => (
@@ -372,7 +388,7 @@ function App() {
           <div className="footer-logo" onClick={() => scrollTo('home')}>
             <span className="logo-r">R</span>ajesh
           </div>
-          <p className="footer-tagline">Where Technology Meets Wisdom.</p>
+          <p className="footer-tagline">Technology · Real Estate · Creative Brands.</p>
           <nav className="footer-nav">
             {navLinks.map(({ id, label }) => (
               <button key={id} className="footer-link" onClick={() => scrollTo(id)}>{label}</button>
